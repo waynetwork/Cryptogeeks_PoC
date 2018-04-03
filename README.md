@@ -1,6 +1,6 @@
-# Waitlist
+# Way Network Proof of Concept: cryptogeeks.berlin
 
-This is the Waitlist web app.
+This is the cryptogeeks.berlin dapp.
 
 ## Setup
 
