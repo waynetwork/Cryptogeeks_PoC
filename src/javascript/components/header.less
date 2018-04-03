@@ -1,0 +1,80 @@
+@import '../variables';
+
+.header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  height: @header-height;
+}
+
+.header-back-button {
+  float: left;
+  font-size: 1em;
+  margin: 17px 17px 17px 0px ;
+  overflow: hidden;
+  width: 2px;
+}
+
+.header-logo {
+  display: inline-block;
+  @media (min-width: 20px) {
+    float: left;
+    margin-top: 4px;
+  }
+
+  @media (max-width: 40px) {
+    position: absolute;
+    left: 10px;
+    top: 4px;
+    transform: translate(-50%,0);
+  }
+}
+
+.header-logo h3 {
+  color:#43d676;
+}
+
+.header-logo img {
+  max-width: 80%;
+  max-height: 50px;
+  margin-top: 4px;
+}
+
+.header-location {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%,0);
+  display: inline-block;
+  margin-top: 12px;
+  @media (max-width: 600px) {
+    display: none;
+  }
+}
+
+.header-location img {
+  height: 30px;
+}
+
+.header-profileicon {
+  float: right;
+  margin: 10px;
+}
+
+.header-chat-partner-icon {
+  float: left;
+  margin: 10px;
+}
+
+.header-chat-partner-username {
+  margin-left: 5px;
+  @media (max-width: 200px) {
+    display: none;
+  }
+}
+
+.header-profileicon-username {
+  margin-right: 5px;
+  @media (max-width: 450px) {
+    display: none;
+  }
+}

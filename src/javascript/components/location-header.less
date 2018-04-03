@@ -1,0 +1,25 @@
+@import '../variables';
+
+.location-header {
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  height: @location-header-height;
+  left: 0px;
+  right: 0px;
+  top: @header-height;
+  background-color: #efefef;
+  font-size: 0.8em;
+
+  @media (min-width: 600px) {
+    display: none;
+  }
+}
+
+.location-header-location {
+  margin-top: 5px;
+}
+
+.location-header-location img {
+  height: 20px;
+}
